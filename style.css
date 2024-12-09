@@ -6,6 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f4f4f4;
+    overflow: hidden;
 }
 
 .calculator {
@@ -15,6 +16,7 @@ body {
     padding: 20px;
     max-width: 300px;
     width: 100%;
+    height: auto;
 }
 
 #input-field {
