@@ -19,6 +19,14 @@ body {
     height: auto;
 }
 
+#Previous {
+    background-color: lightgray;
+    color: darkgray;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 14px;
+  }
+
 #input-field {
     width: 100%;
     height: 50px;
