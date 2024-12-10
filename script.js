@@ -4,6 +4,11 @@ function appendValue(value) {
     document.getElementById('input-field').value += value;
 }
 
+document.addEventListener('DOMContentLoaded', (event) => {
+    const previousElement = document.getElementById('Previous');
+    previousElement.textContent = 'gaita';
+});
+
 function clearInput() {
     document.getElementById('input-field').value = '';
 }
