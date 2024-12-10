@@ -5,10 +5,13 @@ function appendValue(value) {
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
+    const inputField = document.getElementById('input-field');
     const previousElement = document.getElementById('Previous');
-    previousElement.textContent = 'gaita';
-});
 
+    inputField.addEventListener('input', () => {
+        previousElement.textContent = inputField.value;
+    });
+});
 function clearInput() {
     document.getElementById('input-field').value = '';
 }

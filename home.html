@@ -1,14 +1,19 @@
-<html lang="lv">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkulators ar Vēstures Funkciju</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="calculator">
-        <input type="text" id="Previous" disabled>
-        <input type="text" id="input-field" readonly>
+        <input type="text" id="input-field" placeholder="Enter text">
+        <div id="Previous" disabled></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
         <div class="buttons">
             <button onclick="appendValue('7')">7</button>
             <button onclick="appendValue('8')">8</button>
